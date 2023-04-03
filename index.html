@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Store</title>
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"  />
+    <!-- css style -->
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+    <header>
+        <h2><a href="index.html">Shopping Store</a></h2>
+        <ul class="list">
+            <li><a href="signin.html">Sign In</a></li>
+            <li><a href="signup.html">Sign Up</a></li>            
+            <divclass="cart_icon">
+                <li><a href="#" class="fab fa-shopify "></a></li>     
+                <span>1</span>
+            </divclass=cart_icon>
+        </ul>
+        <ul class="username">
+            <li><a href="index.html" class="userinfo"></a></li>
+            <li><a href="signin.html" id="logout">Log Out</a></li>
+            <div class="cart_icon">
+                <li><a href="#" class="fab fa-shopify "></a></li>     
+                <span></span>
+            </div>
+        </ul>
+        <!-- the box of the products  cart-->
+        <section class="cart">
+            <h2>Your Cart</h2>
+            <!-- cart content -->
+            <div class="cart_content">
+                <!-- <div class="cart_box">
+                <img src="assets/1.png" alt="makeup">
+                <div class="cart_details">
+                    <p class="cart_title">Makeup</p>
+                    <strong class="cart_price">55$</strong>
+                    <input type="number" value="0" name="price" class="quantity">
+                </div>
+                <i class="fas fa-trash remove_product"></i>                    
+            </div> -->
+            <!-- remove cart -->
+
+            </div>
+            <!-- total amount -->
+            <div class="cart_total">
+                <p class="total_title">Total</p>
+                <p class="total_price">0$</p>                
+            </div>
+            <!-- buy now -->
+            <div class="cart_buy">
+              <button class="buy_button"> Checkout Orders</button>
+              <button class="continue_shopping">Continue Shopping</button>
+            </div>
+            <!-- close the cart -->
+            <i class="fas fa-xmark close_cart"></i>
+
+        </section>
+    </header>
+    <!-- the home content of the shopping store -->
+    <section class="home">   
+        <h2> Feature products</h2>
+        <!-- the products -->
+        <section class="products">
+            <div class="product">
+                <img src="assets/1.png" alt="makeup" class="product_img">
+                <h5 class="product_title">cosmetics eye shadow</h5>
+                <strong class="product_price">99$</strong>
+                <button class="add_cart"> Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="assets/2.png" alt="makeup" class="product_img">
+                <h5 class="product_title">Modern Makeup</h5>
+                <strong class="product_price">79$</strong>
+                <button class="add_cart"> Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="assets/3.png" alt="makeup" class="product_img">
+                <h5 class="product_title">Pro Makeup</h5>
+                <strong class="product_price">147$</strong>
+                <button class="add_cart"> Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="assets/4.png" alt="makeup" class="product_img">
+                <h5 class="product_title">Modern1 Makeup</h5>
+                <strong class="product_price">127$</strong>
+                <button class="add_cart"> Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="assets/13.png" alt="makeup" class="product_img">
+                <h5 class="product_title">Modern2 Makeup</h5>
+                <strong class="product_price">55$</strong>
+                <button class="add_cart"> Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="assets/5.png" alt="makeup" class="product_img">
+                <h5 class="product_title">Modern Makeup</h5>
+                <strong class="product_price">19$</strong>
+                <button class="add_cart"> Add to Cart</button>
+            </div>
+                        <div class="product">
+                <img src="assets/14.png" alt="makeup" class="product_img">
+                <h5 class="product_title">Old3Makeup</h5>
+                <strong class="product_price">99$</strong>
+                <button class="add_cart"> Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="assets/6.png" alt="makeup" class="product_img">
+                <h5 class="product_title">Modern7 Makeup</h5>
+                <strong class="product_price">79$</strong>
+                <button class="add_cart"> Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="assets/7.png" alt="makeup" class="product_img">
+                <h5 class="product_title">Pro8 Makeup</h5>
+                <strong class="product_price">147$</strong>
+                <button class="add_cart"> Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="assets/8.png" alt="makeup" class="product_img">
+                <h5 class="product_title">Modern4 Makeup</h5>
+                <strong class="product_price">127$</strong>
+                <button class="add_cart"> Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="assets/9.png" alt="makeup" class="product_img">
+                <h5 class="product_title">Modern 1Makeup</h5>
+                <strong class="product_price">55$</strong>
+                <button class="add_cart"> Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="assets/10.png" alt="makeup" class="product_img">
+                <h5 class="product_title">Modern17 Makeup</h5>
+                <strong class="product_price">19$</strong>
+                <button class="add_cart"> Add to Cart</button>
+            </div>
+                        <div class="product">
+                <img src="assets/11.png" alt="makeup" class="product_img">
+                <h5 class="product_title">Modern9 Makeup</h5>
+                <strong class="product_price">19$</strong>
+                <button class="add_cart"> Add to Cart</button>
+            </div>
+                                    <div class="product">
+                <img src="assets/12.png" alt="makeup" class="product_img">
+                <h5 class="product_title">Modern47 Makeup</h5>
+                <strong class="product_price">19$</strong>
+                <button class="add_cart"> Add to Cart</button>
+            </div>
+        </section>
+    </section>
+<!-- making to pops up-->
+<section class="popup">
+<span class="fas fa-check correct"></span>
+    <strong>THANK YOU !</strong>
+    <p></p>
+    <button>Ok</button>
+</section>
+    <script src="src/js/main.js"></script>
+    <script src="src/js/cart.js"></script>
+</body>
+</html>
